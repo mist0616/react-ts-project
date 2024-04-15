@@ -1,7 +1,13 @@
 import React from 'react';
 import './App.less';
+import { Typography } from 'antd';
 
-function App() {
-    return <div className='app'>Hello World!</div>;
-}
+const App: React.FC = () => {
+    return (
+        <div className='app'>
+            <Typography.Title>Hello World!</Typography.Title>
+        </div>
+    );
+};
+
 export default App;
