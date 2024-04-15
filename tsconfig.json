@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        // 指定编译后的目标版本为 ESNext，即最新的 ECMAScript 标准
+        "target": "ESNext",
+        // 指定编译过程中需要引入的库，包括 DOM 和 DOM 迭代器，以及 ESNext 的特性
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        // 是否允许编译 JavaScript 文件
+        "allowJs": false,
+        // 是否跳过库检查
+        "skipLibCheck": false,
+        // 是否允许编译器识别 ES 模块与 CommonJS 模块之间的交互
+        "esModuleInterop": false,
+        // 是否允许合成默认导入
+        "allowSyntheticDefaultImports": true,
+        // 是否启用严格模式
+        "strict": true,
+        // 是否强制文件名大小写一致
+        "forceConsistentCasingInFileNames": true,
+        // 指定模块系统为 ESNext
+        "module": "ESNext",
+        // 指定模块解析策略为 Node
+        "moduleResolution": "Node",
+        // 是否启用解析JSON模块
+        "resolveJsonModule": true,
+        // 是否将每个文件视为独立的模块
+        "isolatedModules": true,
+        // 是否禁止编译输出
+        "noEmit": true,
+        // 指定 JSX 语法为 React
+        "jsx": "react"
+    },
+    // 指定编译包含的目录为"./src"
+    "include": ["./src"]
+}
